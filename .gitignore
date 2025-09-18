@@ -1,3 +1,6 @@
 *.ppt
 *.pptx
 .tmp.*
+
+__pycache__/
+*.pyc
