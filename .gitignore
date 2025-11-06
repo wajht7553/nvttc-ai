@@ -1,11 +1,14 @@
 *.ppt
 *.pptx
-.tmp.*
-
-__pycache__/
 *.pyc
+.tmp.*
+.pth
+
 
 Mid-Term Exam.docx
 
-IMR/
+__pycache__/
+.vscode/
 datasets/
+MidTerm/
+data/
