@@ -131,50 +131,38 @@ jupyter notebook
 ## Suggested Learning Path
 
 1. **Month 01 (Weeks 1-4)**: Master Python fundamentals and statistical concepts
-   - Complete notebooks sequentially
+   - Complete notebooks sequentially 
    - Practice exercises at the end of each notebook
-   - Work with [`students.csv`](Month 01/Week 04/Notebooks/students.csv) for Pandas practice
+   - Work with [`students.csv`](./Month%2001/Week%2004/Notebooks/students.csv) for Pandas practice
 
 2. **Month 02 (Weeks 5-8)**: Build ML intuition with scikit-learn
    - Implement algorithms from scratch before using libraries
-   - Focus on California housing dataset in [w5d2](Month 02/Week 05/Notebooks/w5d2 - Introduction to Machine Learning.ipynb)
+   - Focus on California housing dataset in [`w5d2`](./Month%2002/Week%2005/Notebooks/w5d2%20-%20Introduction%20to%20Machine%20Learning.ipynb)
    - Practice model evaluation techniques
 
 3. **Month 03 (Weeks 9-10)**: Dive into Deep Learning and NLP
-   - Experiment with RNN architectures in [w10d1](Month 03/Week 02/Notebooks/w10d1 - Recurrent Neural Networks.ipynb)
-   - Build text generation models in [w10d3](Month 03/Week 02/Notebooks/w10d3 - Text Generation.ipynb)
-   - Implement machine translation in [w10d5](Month 03/Week 02/Notebooks/w10d5 - Machine Translation.ipynb)
+   - Experiment with RNN architectures in [`w10d1`](./Month%2003/Week%2002/Notebooks/w10d1%20-%20Recurrent%20Neural%20Networks.ipynb)
+   - Build text generation models in [`w10d3`](./Month%2003/Week%2002/Notebooks/w10d3%20-%20Text%20Generation.ipynb)
+   - Implement machine translation in [`w10d5`](./Month%2003/Week%2002/Notebooks/w10d5%20-%20Machine%20Translation.ipynb)
 
 ---
 
 ## Key Notebooks to Explore
 
 ### Python & Data Science
-- [w4d3 - Pandas Fundamentals](Month 01/Week 04/Notebooks/w4d3 - Pandas Fundamentals.ipynb)
-- [w4d2 - NumPy Indexing, Broadcasting, and I-O](Month 01/Week 04/Notebooks/w4d2 - NumPy Indexing, Broadcasting, and I-O.ipynb)
+- [`w4d3 - Pandas Fundamentals`](./Month%2001/Week%2004/Notebooks/w4d3%20-%20Pandas%20Fundamentals.ipynb)
+- [`w4d2 - NumPy Indexing, Broadcasting, and I-O`](./Month%2001/Week%2004/Notebooks/w4d2%20-%20NumPy%20Indexing,%20Broadcasting,%20and%20I-O.ipynb)
 
 ### Machine Learning
-- [w5d2 - Introduction to Machine Learning](Month 02/Week 05/Notebooks/w5d2 - Introduction to Machine Learning.ipynb)
-- [w7d2_d3 - Evaluating Classification Models](Month 02/Week 07/Notebooks/w7d2_d3 - Evaluating Classification Models.ipynb)
+- [`w5d2 - Introduction to Machine Learning`](./Month%2002/Week%2005/Notebooks/w5d2%20-%20Introduction%20to%20Machine%20Learning.ipynb)
+- [`w7d2_d3 - Evaluating Classification Models`](./Month%2002/Week%2007/Notebooks/w7d2_d3%20-%20Evaluating%20Classification%20Models.ipynb)
 
 ### Deep Learning & NLP
-- [w9d4 - NLP Fundamentals](Month 03/Week 01/Notebooks/w9d4 - NLP Fundamentals.ipynb)
-- [w10d1 - Recurrent Neural Networks](Month 03/Week 02/Notebooks/w10d1 - Recurrent Neural Networks.ipynb)
-- [w10d2 - Long Short-Term Memory](Month 03/Week 02/Notebooks/w10d2 - Long Short-Term Memory.ipynb)
-- [w10d3 - Text Generation](Month 03/Week 02/Notebooks/w10d3 - Text Generation.ipynb)
-- [w10d5 - Machine Translation](Month 03/Week 02/Notebooks/w10d5 - Machine Translation.ipynb)
-
----
-
-## Datasets
-
-The repository includes several datasets in the [`datasets`](datasets/) folder and embedded in specific week folders:
-
-- **California Housing**: Used in [Month 02/Week 05](Month 02/Week 05/Notebooks/w5d2 - Introduction to Machine Learning.ipynb)
-- **Student Data**: [`students.csv`](Month 01/Week 04/Notebooks/students.csv) for Pandas exercises
-- **IMDB Reviews**: Sentiment analysis dataset (RNN notebooks)
-- **Shakespeare Text**: Character-level text generation
-- **English-Urdu Corpus**: Machine translation ([eng-urd](Month 03/Week 02/Notebooks/eng-urd/))
+- [`w9d4 - NLP Fundamentals`](./Month%2003/Week%2001/Notebooks/w9d4%20-%20NLP%20Fundamentals.ipynb)
+- [`w10d1 - Recurrent Neural Networks`](./Month%2003/Week%2002/Notebooks/w10d1%20-%20Recurrent%20Neural%20Networks.ipynb)
+- [`w10d2 - Long Short-Term Memory`](./Month%2003/Week%2002/Notebooks/w10d2%20-%20Long%20Short-Term%20Memory.ipynb)
+- [`w10d3 - Text Generation`](./Month%2003/Week%2002/Notebooks/w10d3%20-%20Text%20Generation.ipynb)
+- [`w10d5 - Machine Translation`](./Month%2003/Week%2002/Notebooks/w10d5%20-%20Machine%20Translation.ipynb)
 
 ---
 
@@ -185,17 +173,12 @@ The repository includes several datasets in the [`datasets`](datasets/) folder a
 - **Practice coding**: Re-implement utilities from memory (e.g., preprocessing functions)
 - **Vectorize operations**: Convert loops to NumPy/Pandas operations for efficiency
 - **Experiment**: Modify model architectures and hyperparameters
-- **Use the datasets**: Apply techniques to the provided datasets
 
 ---
 
 ## Project Structure Notes
 
 - Each week folder contains `Notebooks/` subdirectory with `.ipynb` files
-- Temporary files are in [`.tmp.driveupload/`](.tmp.driveupload/) and [`.tmp.drivedownload/`](.tmp.drivedownload/)
-- Configuration files in [`.vscode/`](.vscode/) for VS Code users
-- [`.gitignore`](.gitignore) excludes temporary and system files
-
 ---
 
 ## Contributing
