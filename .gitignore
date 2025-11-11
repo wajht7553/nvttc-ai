@@ -3,12 +3,13 @@
 *.pyc
 .tmp.*
 .pth
-
-
-Mid-Term Exam.docx
+.docx
 
 __pycache__/
 .vscode/
 datasets/
 MidTerm/
 data/
+Exam/
+
+choose_sequence_length.ipynb
