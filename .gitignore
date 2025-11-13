@@ -4,6 +4,7 @@
 .tmp.*
 .pth
 .docx
+.zip
 
 __pycache__/
 .vscode/
